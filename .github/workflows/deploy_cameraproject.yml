@@ -35,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # altere se sua pasta final for "build" ou outra
+          path: ./public   # altere se sua pasta final for "build" ou outra
 
   deploy:
     environment:
